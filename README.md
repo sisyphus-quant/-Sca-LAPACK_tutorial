@@ -2,7 +2,7 @@
 description: Notes on Lapack
 ---
 
-# Scalapack and Lapack
+# A tutorial on Scalapack and Lapack
 
-ssdfsf
+Link: https://stoner.github.io/scalapack_tutorial
 
