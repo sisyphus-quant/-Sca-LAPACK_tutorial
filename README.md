@@ -1,2 +1,8 @@
-# -Sca-LAPACK_tutorial
-A tutorial on LAPACK and ScaLAPACK.
+---
+description: Notes on Lapack
+---
+
+# Scalapack and Lapack
+
+ssdfsf
+
