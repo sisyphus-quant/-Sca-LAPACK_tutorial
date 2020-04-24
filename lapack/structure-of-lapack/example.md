@@ -86,5 +86,9 @@ Since the implementation of `SGETRS()` is pretty simple, we use it to illustrate
      $               NRHS, ONE, A, LDA, B, LDB )
 ```
 
-`SLASWP()` is a LAPACK auxiliary routine, which performs a sequence of row permutations according to `IPIV`. This gives $$B'=PB $$. It then calls twice the `STRSM()` , a Level-3 BLAS subroutine, which solves equation like $$TX=aB$$ , where $$T$$ is either an upper or a lower triangular matrix. Documentation of `STRSM()` can be found at [here](http://www.netlib.org/lapack/explore-html/db/dc9/group__single__blas__level3_ga9893cceb3ffc7ce400eee405970191b3.html#ga9893cceb3ffc7ce400eee405970191b3).
+`SLASWP()` is a LAPACK auxiliary routine, which performs a sequence of row permutations according to `IPIV`. This gives $$B'=PB $$. It then calls twice the `STRSM()` , a Level-3 BLAS subroutine, which solves equation like $$TX=aB$$ , where $$T$$ is either an upper or a lower triangular matrix. Documentation of `STRSM()` can be found at [here](http://www.netlib.org/lapack/explore-html/db/dc9/group__single__blas__level3_ga9893cceb3ffc7ce400eee405970191b3.html#ga9893cceb3ffc7ce400eee405970191b3). 
+
+This breakdown is summarized by the chart below.
+
+![How LAPACK solves AX=B](../../.gitbook/assets/sgesv_break_down.svg)
 
