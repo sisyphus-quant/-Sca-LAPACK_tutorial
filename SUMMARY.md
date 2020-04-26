@@ -8,5 +8,5 @@
 * [Structure of LAPACK](lapack/structure-of-lapack/README.md)
   * [Subroutines](lapack/structure-of-lapack/subroutines.md)
   * [Example: solving real linear equations](lapack/structure-of-lapack/example.md)
-* [LAPACK with C](lapack/lapack-with-c.md)
+* [LAPACK with C++](lapack/lapack-with-c.md)
 

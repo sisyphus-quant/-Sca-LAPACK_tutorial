@@ -14,7 +14,7 @@ All routines are provided in both single and double precision versions.
 
 ### Naming Scheme
 
-The name of each LAPACK subroutine is encoding a brief description of the computation it performs. It sometimes can be confusing and daunting for new beginners. However, its naming scheme is pretty straightforward and once understood can be very convenient to help you understand LAPACK codes.
+The name of each LAPACK subroutine is encoding a brief description of the computation it performs. Consequently beginners sometimes find using LAPACK cryptic and daunting. However, its naming scheme is actually unambiguous and its interface basically has never changed since the 90s. So understanding its naming system is an important step towards efficient usage of LAPACK.
 
 All driver and computational routines have names of the format **XYYZZZ**. Only the last three letters indicate the computation performed, and thus they are parts of the name that you should pay most of the attention. Below are few examples of the meanings of **ZZZ**:
 
