@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ScaLAPACK and LAPAC](README.md)
+* [SCALAPACK](README.md)
 
 ## LAPACK
 

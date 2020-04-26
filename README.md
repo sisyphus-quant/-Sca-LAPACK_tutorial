@@ -1,8 +1,8 @@
 ---
-description: Notes on ScaLAPACK and LAPACK
+description: A tutorial on SCALAPACK and LAPACK
 ---
 
-# ScaLAPACK and LAPAC
+# SCALAPACK
 
 Link: [https://stoner.gitbook.io/scalapack\_tutorial](https://stoner.gitbook.io/scalapack_tutorial)
 
